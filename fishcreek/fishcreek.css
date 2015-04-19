@@ -12,6 +12,9 @@ main {
 }
 
 header {
+	background-image:url("bigfish.gif");
+	background-position: center;
+	background-repeat: no-repeat;
 	background-color: #000066;
 	color: #FFFFFF;
 }
@@ -67,10 +70,8 @@ footer {
 	margin-left:180px;
 	font-size: .70em;
 	font-style: italic;
-	text-align:left;
 }
 footer nav {
-	text-align:left;
 }
 
 #wrapper{
