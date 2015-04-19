@@ -1,22 +1,47 @@
 body {
+	background-image: url("gradientblue.jpg");
 	background-color: #6699ff;
 	color: #d5e3ff;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 header {
-	background-color: #6699ff;
-	color: #003366;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #000066;
+	color: #FFFFFF;
 }
 
 h1 {
 	text-align:center;
+	font-size: 3em;
+	padding: 10px;
+	line-height:150%;
+	text-shadow: 2px 2px #CCCCCC;
 }
 
 nav {
-	font-weight: bold;
-	text-align:center;
+	font-weight:bold;
+	float:left;
+	width:150px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav a{
+	text-decoration:none;
+}
+
+nav a:link {
+	color:#3262A3;
+}
+
+nav a:visited {
+	color:#6699FF;
+}
+
+nav a:hover {
+	color:#CCCCCC;
 }
 
 img{
@@ -40,6 +65,8 @@ footer nav {
 }
 
 #wrapper{
+	background-color: #FFFFFF;
+	color: #000066;
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
